@@ -103,7 +103,7 @@ export const projects = [
 // edit freely to change what it cycles through.
 export const consoleLines = [
   "$ whoami",
-  "> Karma Patil — full-stack & AI agent developer",
+  "> Manish Patil — full-stack & AI agent developer",
   "$ status --check",
   "> available for internships",
   "$ skills --top",
