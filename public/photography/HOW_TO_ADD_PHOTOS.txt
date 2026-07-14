@@ -1,0 +1,12 @@
+Put your photo files in this folder (e.g. sunset.jpg, street-01.jpg).
+
+Then open src/data/content.js and add an entry for each one to the
+`photography` array, like:
+
+  { src: "/photography/sunset.jpg", caption: "Sunset at Nal Sarovar" }
+
+Notes:
+- Keep filenames lowercase, no spaces (use dashes instead).
+- Compress large photos first (2000px on the long edge is plenty for web)
+  so the site loads fast — tinypng.com or squoosh.app work well.
+- This file itself is not an image and won't show up on the site.
